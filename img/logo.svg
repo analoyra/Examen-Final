@@ -1,0 +1,16 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="#0000bf"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_2" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" id="svg_4" d="m402.58223,275.999992l11.433525,-25.333839l45.734251,-6.333471l-57.167777,31.66731l-285.832231,0l0,-189.999988l343.000019,0l0,158.332684" stroke-opacity="null" stroke-width="1.5" fill="#FFDCEC"/>
+  <text fill="#000000" stroke-width="0" x="38.553613" y="108.428571" id="svg_1" font-size="24" font-family="'Simonetta', serif" text-anchor="start" xml:space="preserve" transform="matrix(3.561808347702026,0,0,4.666666507720947,26.74122869968413,-289.3333196640014) " stroke="#000" font-weight="bold">A.E.L.</text>
+ </g>
+</svg>

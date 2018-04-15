@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, user-scalable=no"
+    <meta name="author" content="Anabel Loyra">
+    <meta name="description" content="Curriculum Vitae de Anabel Loyra">
+    <meta name="keywords" content="código HTML etiqueta página web ">
+    <title>  Curriculum Vitae </title>
+  </head>
+  <body>
+
+  <img src="img/logo.svg" alt="insertar SVG con la etiqueta image" width="250" height="250">
+  <h1>Nombres: Anabel Elisa<h1/>
+  <h1>Apellidos: Loyra Bueso<h1/>
+  <h2>Fecha de nacimiento: 5 de Abril de 1971 </h2>
+  <h3>Lugar de nacimiento: Bahía Blanca - Buenos Aires - Argentina </h3>
+  <br\>
+  <nav>
+    <ul>
+        <li><h2>  <a href="educacion.html">EDUCACION</a></h2>  </li>
+        <li><h2>  <a href="experiencia.html">PERFIL</a></h2>   </li>
+        <li><h2>  <a href="index.html">Volver al inicio</a></h2></li>
+    </ul>
+    <br\>
+  </nav>
+  <section>
+  <h2>Educación</h2>
+  <table width="100%" border="1" bordercolor="#0000FF" cellspacing="10" cellpadding="10" >
+      <tr>
+
+          <td><strong>Año</strong></td>
+          <td><strong>Instituto</strong></td>
+          <td><strong>Lugar</strong></td>
+          <td><strong>¿Culmino?</strong></td>
+
+      </tr>
+      <tr>
+          <td>1989</td>
+          <td>ENET N° 1</td>
+          <td>Bahía Blanca</td>
+          <td>Si</td>
+
+      </tr>
+      <tr>
+        <td>2000</td>
+        <td>Juan XXII</td>
+        <td>Bahía Blanca</td>
+        <td>Si</td>
+
+      </tr>
+  </table>
+  <h2>Agregar Estudios</h2>
+  <form>
+
+  <p>
+      <label for="anio">Año: </label>
+      <select name="anio">
+        <option value="1">2000</option>
+        <option value="1">2001</option>
+        <option value="1">2002</option>
+      </select>
+   <p>
+    <label for="institucion">Institución: </label>
+    <input type="text" name="institucion" required/>
+  </br>
+    <label for="genre">¿Culminó?: </label>
+    <br>
+    <input type="radio" name="genre"> Si
+    <br>
+    <input type="radio" name="genre"> No
+   </p>
+   <p>
+     <label for="lugar">Comentarios: </label>
+     <br>
+     <textarea name="lugar" id="" cols="30" rows="3"></textarea>
+   </p>
+   <p>
+     <input type="submit" value="Registrar">
+   </p>
+  </form>
+</section>
+  <footer>
+
+  <p>Correo Electronico: <a href="mailto:aloyra@gmail.com">
+  aloyra@gmail.com</a>.</p>
+  <p>En facebook como analoyra</p>
+</footer>
+  </body>
+</html>
